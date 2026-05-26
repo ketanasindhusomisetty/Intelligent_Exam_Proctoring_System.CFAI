@@ -1,49 +1,87 @@
-Intelligent Exam Proctoring System
-📌 Overview
+# Intelligent Exam Proctoring System
+
+## 📌 Project Overview
+
 The Intelligent Exam Proctoring System is an AI-based online examination monitoring system designed to detect suspicious activities automatically during online exams.
 
-The system uses webcam monitoring, audio analysis, browser activity tracking, and behavior analysis to identify unusual activities such as:
+The system uses computer vision and webcam monitoring to analyze student behaviour and identify activities such as:
 
-Looking away repeatedly
-Multiple face detection
-Mobile phone usage
-No face visibility
-Frequent head movement
-Tab switching
-Leaving the seat
-The system combines rule-based reasoning and probabilistic analysis to improve decision-making accuracy and provide explainable alerts.
+- Looking away frequently
+- Multiple face detection
+- No face visibility
+- Suspicious head movement
 
-🚀 Features
-Real-time AI exam monitoring
-Suspicious activity detection
-Browser activity tracking
-Audio behaviour analysis
-Explainable AI alerts
-Rule-based reasoning
-Probabilistic decision making
-Fair and secure online examination support
-🛠 Technologies Used
-Programming & Development
-Python
-Flask / Streamlit
-AI & Machine Learning
-TensorFlow
-YOLO
-Explainable AI (XAI)
-Computer Vision
-OpenCV
-MediaPipe
-Data Processing
-NumPy
-Pandas
-SQLite / MySQL
-📚 Concepts Used
-AI Problem Formulation
-Constraint Satisfaction Problem (CSP)
-Rule-Based Reasoning
-Heuristic Search
-Behaviour Analysis
-👨‍💻 Team Members
-Sai Sharan Rangaraj Cholkar
-Kompelli Saanvi
-Ketana Sindhu Somishetty
+The project helps improve fairness, transparency, and security during online examinations.
+
+---
+
+## 🚀 Features
+
+- Real-time webcam monitoring
+- Face detection using OpenCV
+- Multiple face detection
+- Suspicious activity tracking
+- Head movement analysis
+- Warning and alert system
+- AI-based online exam monitoring prototype
+
+---
+
+## 🛠 Technologies Used
+
+### Programming Language
+- Python
+
+### Libraries & Tools
+- OpenCV
+- NumPy
+- VS Code
+- GitHub
+
+---
+
+## 📚 AI Concepts Used
+
+- Computer Vision
+- Behaviour Analysis
+- Rule-Based Detection
+- Artificial Intelligence Monitoring
+- Suspicious Activity Detection
+
+---
+
+## 👨‍💻 Team Members
+
+- Sai Sharan Rangaraj Cholkar
+- Kompelli Saanvi
+- Ketana Sindhu Somishetty
+
+---
+
+## 📂 Project Structure
+
+Intelligent-Exam-Proctoring-System/
+
+├── src/
+
+│ └── app.py
+
+├── screenshots/
+
+├── report/
+
+│ ├── Intelligent Exam Proctoring System_Abstract.pdf
+
+│ └── Intelligent Exam Proctoring System.pptx
+
+└── README.md
+
+---
+
+## ▶️ How To Run The Project
+
+### Step 1
+Install required library:
+
+```bash
+pip install opencv-python numpy
