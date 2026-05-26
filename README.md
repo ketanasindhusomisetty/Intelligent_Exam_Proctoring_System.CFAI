@@ -85,3 +85,12 @@ Install required library:
 
 ```bash
 pip install opencv-python numpy
+
+### Step 2
+
+Run the project:
+python app.py
+
+### Step 3
+
+Press ESC key to close the application.
